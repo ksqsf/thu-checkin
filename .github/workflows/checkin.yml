@@ -1,6 +1,7 @@
 name: checkin
 
 on:
+  workflow_dispatch:
   schedule:
     # NOTE: Time is in UTC
     - cron: "0 2 * * *"
